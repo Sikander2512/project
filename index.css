@@ -1,0 +1,84 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+body{
+    background-color:  hsl(185, 75%, 39%);
+}
+.contanier{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.parent{
+   
+    margin-top: 8rem;
+    border-radius: .625rem;
+    background: white;
+}
+.header{
+    border-top-left-radius: .625rem;
+    border-top-right-radius: .625rem;
+
+}
+.owner{
+
+    border-radius: 3.4375rem;
+    margin-top: -3.3125rem;
+    margin-left: 7.4375rem;
+    }
+    .text-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.125rem;
+    
+    }
+    .bottom{
+        display: flex;
+        column-gap: 3.125rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5625rem;
+    
+    }
+    .text{
+        font-size: 1.125rem;
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif
+    }
+    .center{
+        font-weight: 300;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .london{
+        font-size: .75rem;
+        color: gray;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: .625rem;
+    }
+    .eighty-k{
+        font-size: 1.125rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .followers{
+        font-size: .8125rem;
+        color: gray;
+    
+    }
+    @media(max-width:25rem){
+        .contanier{
+            
+            
+            margin-left: 0rem;
+            margin-right: 0rem;
+            padding: 0rem;
+        }
+
+    }
